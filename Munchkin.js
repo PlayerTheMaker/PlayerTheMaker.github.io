@@ -6,18 +6,18 @@ document.onclick= function(event) {
 
     if (target.tagName == 'IMG'){
       if (times > 10){
-        alert("Well, I won't make any more dialoge for this!");
+        alert("Well, I won't make any more dialogue for this!");
       } 
       if (times == 10){
         alert("the code is 13542")
         times += 1
       }
       if (times > 2 && times < 10){
-        alert("Well, I won't make any more dialoge for this!");
+        alert("Well, I won't make any more dialogue for this!");
         times += 1
       } 
       if (times == 2){
-        alert('Are you doing this to see if there is new dialoge each time?');
+        alert('Are you doing this to see if there is new dialogue each time?');
         times += 1;
       } 
       if (times == 1){

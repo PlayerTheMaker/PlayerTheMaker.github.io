@@ -3,6 +3,11 @@ html, body{
   padding: 0px;
 }
 
+bigDiv{
+  height: 5000vw;
+  float: left;
+}
+
 p{
   font-family: 'Cutive Mono';
   font-size: 2vw;
