@@ -56,10 +56,10 @@ function keyDownHandler(e) {
     }
   }
 
-  if (e.key == "a" && input == 8){
+  if (e.key == "b" && input == 8){
     input=9
   }
-  if (e.key == "b" && input == 9){
+  if (e.key == "a" && input == 9){
     input=10
   }
   
