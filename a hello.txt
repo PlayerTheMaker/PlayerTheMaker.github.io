@@ -1,7 +1,2 @@
 Hello.
-You should not be here.
-Please stop looking in these files.
-There are things not meant to be seen.
-There are things that I won't delete.
-There are things I can't delete.
 Goodbye.
