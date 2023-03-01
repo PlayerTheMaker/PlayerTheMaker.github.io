@@ -1,7 +1,5 @@
 <!doctype html>
 <html lang="en-us">
-  Cross-Origin-Opener-Policy: same-origin
-  Cross-Origin-Embedder-Policy: require-corp
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -12,6 +10,9 @@
     <link rel="stylesheet" type="text/css" href="theme/love.css">
   </head>
   <body>
+    <script>
+    if (!crossOriginIsolated) SharedArrayBuffer = ArrayBuffer;
+    </script>
     <center>
       <div>
         <h1>Feedback Factory</h1>
