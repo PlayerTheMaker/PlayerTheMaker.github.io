@@ -1,5 +1,3 @@
-Cross-Origin-Opener-Policy: same-origin
-Cross-Origin-Embedder-Policy: require-corp
 <!DOCTYPE html>
 <html>
   <head>
@@ -12,6 +10,9 @@ Cross-Origin-Embedder-Policy: require-corp
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
+    <script>
+    if (!crossOriginIsolated) SharedArrayBuffer = ArrayBuffer;
+     </script>
     <div class="greenBack" class="TitleBar">
       <h1 class="Title">HOME OF THE MUNCHKIN</h1>
     </div>
