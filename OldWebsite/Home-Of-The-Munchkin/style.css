@@ -1,0 +1,84 @@
+html, body{
+  margin: 0px;
+  padding: 0px;
+}
+
+p{
+  font-family: 'Cutive Mono';
+  font-size: 2vw;
+}
+
+a {
+  font-size: 2.5vw;
+  font-family: 'Cutive Mono';
+  color: dodgerblue
+}
+
+button {
+  background-color: white;
+  cursor: pointer;
+  font-family: 'Cutive Mono';
+  font-size: 2.5vw;
+}
+
+button:hover{
+  background-color:rgb(204, 204, 204);
+}
+
+.Title {
+  font-family: 'Montserrat';
+  letter-spacing: 1.75vw;
+  text-align: center;
+  font-size: 5vw;
+}
+.TitleBar {
+  float: left;
+  width: 100%;
+}
+
+.greenBack {
+  background-color: #a4ba98;
+  float: left;
+  width: 100%;
+}
+.orangeBack {
+  background-color: #ff6c24;
+  float: left;
+  width: 100%;
+}
+.blueBack {
+  background-color: #065ab5;
+  float: left;
+  width: 100%;
+}
+.yellowBack {
+  background-color: #f3ef7d;
+  float: left;
+  width: 100%;
+}
+
+.content {
+  float: left;
+  margin: 2vw;
+  font-family: 'Cutive Mono';
+}
+
+.margin {
+  margin:2vw;
+  margin-top: 2vw;
+}
+
+.Navbar, button {
+  float: left;
+  width:25%;
+}
+
+.menu, button {
+  float: left;
+  width:25%;
+}
+
+.thumbtack {
+  width: 30vw;
+  float: left;
+}

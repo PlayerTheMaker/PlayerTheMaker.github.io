@@ -1,96 +1,46 @@
 html, body{
-  margin: 0px;
-  padding: 0px;
-  float: left;
-}
+    margin: 1vw;
+    padding: 0px;
+    float: left;
+    background-color: rgb(12, 4, 51);
+    text-align: center;
+    font-family: 'Montserrat';
+    color: antiquewhite;
+    font-size: 1.75vw;
+  }
+  
+  bigDiv{
+    height: 5000vw;
+    float: left;
+  }
+  
+  p{
+    font-family: 'Cutive Mono';
+    font-size: 2vw;
+  }
 
-bigDiv{
-  height: 5000vw;
-  float: left;
-}
+  img{
+    width: 15vw;
+  }
 
-p{
-  font-family: 'Cutive Mono';
-  font-size: 2vw;
-}
+  a{
+    color: rgb(50, 185, 156);
+  }
+  
+  .Title {
+    letter-spacing: .25vw;
+    font-size: 3vw;
+    color: rgb(233, 140, 86);
+  }
 
-a {
-  font-size: 2.5vw;
-  font-family: 'Cutive Mono';
-  color: dodgerblue
-}
+  .SubTitle {
+    letter-spacing: .175vw;
+    color: burlywood;
+    font-size: 2vw;
+  }
 
-.a1 {
-  font-size: 2vw;
-  font-family: 'Cutive Mono';
-  color: dodgerblue
-}
-
-button {
-  background-color: white;
-  cursor: pointer;
-  font-family: 'Cutive Mono';
-  font-size: 2.5vw;
-}
-
-button:hover{
-  background-color:rgb(204, 204, 204);
-}
-
-.Title {
-  font-family: 'Montserrat';
-  letter-spacing: 1.75vw;
-  text-align: center;
-  font-size: 5vw;
-}
-.TitleBar {
-  float: left;
-  width: 100%;
-}
-
-.greenBack {
-  background-color: #a4ba98;
-  float: left;
-  width: 100%;
-}
-.orangeBack {
-  background-color: #ff6c24;
-  float: left;
-  width: 100%;
-}
-.blueBack {
-  background-color: #065ab5;
-  float: left;
-  width: 100%;
-}
-.yellowBack {
-  background-color: #f3ef7d;
-  float: left;
-  width: 100%;
-}
-
-.content {
-  float: left;
-  margin: 2vw;
-  font-family: 'Cutive Mono';
-}
-
-.margin {
-  margin:2vw;
-  margin-top: 2vw;
-}
-
-.Navbar, button {
-  float: left;
-  width:25%;
-}
-
-.menu, button {
-  float: left;
-  width:25%;
-}
-
-.thumbtack {
-  width: 30vw;
-  float: left;
-}
+  .TitleBar {
+    float: left;
+    text-align: center;
+    width: 100%;
+  }
