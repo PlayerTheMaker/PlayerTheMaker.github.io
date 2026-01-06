@@ -1,0 +1,46 @@
+html, body{
+    margin: 1vw;
+    padding: 0px;
+    float: left;
+    background-color: rgb(12, 4, 51);
+    text-align: center;
+    font-family: 'Montserrat';
+    color: antiquewhite;
+    font-size: 1.75vw;
+  }
+  
+  bigDiv{
+    height: 5000vw;
+    float: left;
+  }
+  
+  p{
+    font-family: 'Cutive Mono';
+    font-size: 2vw;
+  }
+
+  img{
+    width: 15vw;
+  }
+
+  a{
+    color: rgb(50, 185, 156);
+  }
+  
+  .Title {
+    letter-spacing: .25vw;
+    font-size: 3vw;
+    color: rgb(233, 140, 86);
+  }
+
+  .SubTitle {
+    letter-spacing: .175vw;
+    color: burlywood;
+    font-size: 2vw;
+  }
+
+  .TitleBar {
+    float: left;
+    text-align: center;
+    width: 100%;
+  }
