@@ -6,7 +6,7 @@ html, body{
     text-align: center;
     font-family: 'Montserrat';
     color: antiquewhite;
-    font-size: 1.75vw;
+    font-size: 1.5vw;
   }
   
   bigDiv{
@@ -16,7 +16,7 @@ html, body{
   
   p{
     font-family: 'Cutive Mono';
-    font-size: 2vw;
+    font-size: 1vw;
   }
 
   img{
@@ -43,4 +43,24 @@ html, body{
     float: left;
     text-align: center;
     width: 100%;
+  }
+
+  div {
+    border: 15px solid rgb(30, 10, 100);
+    border-bottom-left-radius: 10%;
+    border-style:ridge;
+    border-bottom-style: groove;
+    padding: 1.5%;
+    margin: 2.5%;
+  }
+
+  .default_div_bottom_right_rounded{
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 10%;
+    border-bottom-style: ridge;
+    border-right-style: ridge;
+  }
+
+  .round{
+    border-radius: 10%;
   }
