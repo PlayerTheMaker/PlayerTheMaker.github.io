@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Montserrat:wght@700&family=Oswald&family=Source+Sans+Pro:wght@300&family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Kavan Abayanayaka's Projects</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link rel="icon" type="image/x-icon" href="icon.ico">
+    </head>
+    <body>
+        
+        <h1 class="Title">--Kavan Abayanayaka's <b><i>Tech Innovations</i></b> Blog--</h1>
+
+        
+
+        <h1 class="SubTitle">1/26 - 1/30</h1>
+
+        This week was a slow but promising start.
+        The idea has changed a bit, and a large time-consuming process has been skipped,
+        thanks to some arduino synth code we found online.
+        There's still a lot to do though, both on the software and hardware sides of things.
+
+
+        <div>
+        We quickly managed to get some rudimentary sound playing through a pair of headphones at a volume that was audible from across the room without even putting them on (we continue to keep the hazardous device a safe distance from our ears).
+        <br><br>
+        <img src="pictures/solderingFail.jpeg" alt="A Headphone-Jack Adapter with wires messily soldered on" style = "width:30vw">
+        <br><br>
+        The issue was that we had to manually hold the wires from our Arduino circuit-board to this adapter for the sound.
+        We tried to fix this by soldering some wires to the adapter so they would stay in place, but...
+        we kinda ruined the jack (a.k.a. me, the one who did the soldering here).
+        The headphone cable doesn't fit anymore. We have backups luckily.
+        </div>
+
+        <div class = "default_div_bottom_right_rounded">
+        After some time spent fiddling (somewhat [un]successfully) with sound output,
+        I realized that there was probably a bunch of code online to <s>steal</s> build off of.
+        I found some. I didn't like it. We didn't use it.
+        Then, later, I found this <a href="https://github.com/dzlonline/the_synth">https://github.com/dzlonline/the_synth</a>.
+        It's perfect for our project. It's a well-made sound generation library that's easy to modify and interact with.
+        It'll save us the trouble of making synth-code from scratch without limiting what we can do with the synth.
+        <br><br>
+        <img src="pictures/3buttonsOfPower.jpeg" alt="Our three-button synth" style = "width:20vw">
+        <br><br>
+        With the use of that library, we wrapped up the week with this little contraption.
+        You could say we already have a polyphonic synth! It's only got three notes though.
+        <br><br>
+        I might be gone for the class period most next week, as I'm the only programmer for the school's Robotix team and
+        I'm the only programer they have. That's okay though, with this set up Weston can do some synth-sound experimentation.
+        </div>
+        
+        <div>
+            So the potentiometers we were planning on using as of last week don't work very well... Anyway,
+        we've decided that the keys need some physical feedback when pressed,
+        so flat, non-moving potentiometers like that won't cut it.
+        The issue is that we're not really mechanical engineers, and making
+        actual mechanisms for each key will be pretty difficult for us.
+        <br><br>
+        This, is the solution (maybe?):
+        <br>
+        <img src="pictures/joystick-key sketch.png" alt="A messy MS Paint sketch for a key design." style = "width:30vw">
+        <br>
+        <br>
+        The idea is that the only moving mechanical part in this design is a controller Joystick, something that we can buy and
+        not worry about designing or making ourselves. The connected key can be pressed down into the foam which keeps it
+        upright to make the Joystick read as having being pressed downwards. In addition, the key can be wiggled left and right,
+        making the Jostick read x-axis movement,
+        for a little bit for extra input! This has a lot of potential for pitch-bend, tremolo, or other effects! I'm pretty inspired
+        by the Osmose keyboard.
+        </div>
+        
+        I'm excited to work on our project more!
+        
+        <br>
+        <br>
+        <a href="blog2.html">Previous Blog</a> -- <a href="blogs.html">Return to Blog Menu</a>
+    </body>
+</html>
