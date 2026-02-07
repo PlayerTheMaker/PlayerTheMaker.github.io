@@ -23,6 +23,10 @@ html, body{
     width: 15vw;
   }
 
+  video{
+    width: 15vw;
+  }
+
   a{
     color: rgb(50, 185, 156);
   }
