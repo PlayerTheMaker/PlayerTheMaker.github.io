@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Montserrat:wght@700&family=Oswald&family=Source+Sans+Pro:wght@300&family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Kavan Abayanayaka's Projects</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link rel="icon" type="image/x-icon" href="icon.ico">
+    </head>
+    <body>
+        
+        <h1 class="Title">--Kavan Abayanayaka's <b><i>Tech Innovations</i></b> Blog--</h1>
+
+        
+
+        <h1 class="SubTitle">4/6 - 4/10</h1>
+
+        
+        We made a lot of tangible progress this week! Lots of settings and features added,
+        and Weston brought in his amplifier for us to do some proper testing.
+        
+
+        <div>
+            Some snippets!
+            <br>
+            <video controls>
+                <source src="pictures/chance heroes.mov" alt = "video of my playing the instrument with an amp (chance heroes opening!)">
+            </video>
+            <video controls>
+                <source src="pictures/celeste opening.mov" alt = "video of my playing the instrument with an amp (celeste first steps opening!)">
+            </video>
+            <video controls>
+                <source src="pictures/choral chambers.mov" alt = "video of my playing the instrument with an amp (my rendition of choral chambers [silksong]!)">
+            </video>
+            <br>
+            We've added support for a sustain pedal, a "piano mode" with velocity-sensitive volume
+            (instead of positional-sensitive volume), and the option to change the amount that key wiggle
+            bends/modulates the note played.
+            <br>
+            Oh, yeah, Mr. Crockett also printed us some black keys for the keyboard! Now it looks a tiny bit more like a
+            piano-type instrument.
+        </div>
+
+        <div class = "default_div_bottom_right_rounded">
+            Mr. Crockett has been asking me to add git commit links, so <a href="https://github.com/RHSTigerTech/ti-project-wamboard/commit/38cda3b51ec2914c577c9ef7ac79409a597bfd88">
+            here</a>'s a pretty major one. This is where I combined my previous work to alter the
+            code so it would work with the new Arduino Mega/16-key set-up with  Weston's piano mode and sustain features.
+            There were some bugs which I patched in the later
+            commits before adding functionality for octave bending and toggling/cycling all these settings using the
+            repurposed-joysticks' ability to be pressed in like buttons.
+            <br>
+            <br>
+            <img src="pictures/octave bend code.png" alt="Some code for the octave bend feature." style = "width:30vw"  class = "round">
+            <br>
+            This image above shows the core code for the octave bend feature. It essentially sets the note frequency to that
+            of a note one octave (12 notes) lower or higher than the note assigned to a key when said key is sufficiently bent
+            left or right.
+        </div>
+
+        <div>
+            Here, I've started modeling final body/hardware/case for our instrument. The plan is to laser cut this out of wood.
+            <br>
+            <img src="pictures/case modeling start.png" alt="A model of a flat board with holes to mount joysticks and a slot for wires to go through." style = "width:50vw"  class = "round">
+            <br>
+            Once we get this final body made and the guts of the instrument in it, I think we'll have something presentable for
+            the capstone showcase. We'll continue to be able to add software features, but the hardware will be at a good
+            stopping point.
+        </div>
+
+        Only 4 proper weeks of work left...
+        <br>
+
+        <br>
+        <a href="blog10.html">Previous Blog</a> -- <a href="blogs.html">Return to Blog Menu</a>
+    </body>
+</html>
