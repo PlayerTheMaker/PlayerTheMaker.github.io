@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Montserrat:wght@700&family=Oswald&family=Source+Sans+Pro:wght@300&family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Kavan Abayanayaka's Projects</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link rel="icon" type="image/x-icon" href="icon.ico">
+    </head>
+    <body>
+        
+        <h1 class="Title">--Kavan Abayanayaka's <b><i>Tech Innovations</i></b> Blog--</h1>
+
+        
+
+        <h1 class="SubTitle">4/27 - 5/1 (- 5/3)</h1>
+
+        
+        It's all together now! The project is basically done aside from some final touches,
+        so we're really in the final stretch.
+        Good timing, as we only have two weeks till the capstone presentation!
+        <br>
+        <br>
+        <img src="pictures/assembled!.png" alt="Assembled Wamboard!" style = "width:30vw"  class = "round">
+
+        <div>
+            We added a little screen to display the current settings of the instrument (and potentially do other things).
+            <br>
+            <img src="pictures/miniscreen.png" alt="A tiny screen with glowing blue text." style = "width:30vw"  class = "round">
+            <br>
+            There were two ways we could have set up this screen, and in the end I decided that the method that uses more wires
+            to update the screen faster was the way to go (even if it caused me some pain when it came to actually wiring it).
+            <br>
+            In addition to using the faster wiring to avoid lag that would disrupt sound generation and input response,
+            I programmed it so that the screen is only drawn to when settings are changed, meaning that no processing time
+            is used up by drawing to the screen unless the user is changes a setting.
+        </div>
+
+        <div class = "default_div_bottom_right_rounded">
+            I've taken the Wamboard home this weekend to do some measurements for it (and add a completely superfluous feature).
+            <div>
+                Here's a side panel that I'm going to 3D print to affix to our wooden exterior to cover up the ports with the
+                exact openings we need for ports and knobs.
+                <br>
+                <img src="pictures/IO cover part.png" alt="Flat 3D model of a rectangle with different shaped holes cut into it." style = "width:30vw"  class = "round">
+                <br>
+                I didn't include this in the laser-cut wood pieces because I 
+                wasn't sure what ports we would need and because I want to be able to swap this out in the future if we change
+                the I/O somehow.
+                <br>
+                By the way, we'll try to print this in orange, not green. Maybe black if there's no orange.
+            </div>
+            <div class = "default_div_bottom_right_rounded">
+                Here's the <i>real</i> reason I took it home over the weekend. (Well, not that the measurements weren't a real
+                reason, but, you know, this was another motivation.)
+                <br>
+                <video controls style = "width:30vw">
+                    <source src="pictures/pong.mov" alt = "Playing pong against myself on the Wamboard">
+                </video>
+                <br>
+                Hopefully I can surprise Weston with this on Monday.
+            </div>
+        </div>
+
+        It's really satisfying to have it all put together and in a playable state.
+        I've just been tinkering with it at home when bored/procratinating/waiting-to-go-somewhere,which is exactly what
+        what I intended to make with this project; a fun little novel instrument.
+        <br>
+        <br>
+        <a href="blog13.html">Previous Blog</a> -- <a href="blogs.html">Return to Blog Menu</a>
+    </body>
+</html>
